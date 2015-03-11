@@ -13,9 +13,9 @@
 	</bean>
 	
 	<bean id="triangle2" class="com.javabrains.dao.Triangle2">
-		<property name="pointA" ref="point1"></property>
-		<property name="pointB" ref="point2"></property>
-		<property name="pointC" ref="point3"></property>
+		<property name="pointA" ref="pointA"></property>
+		<property name="pointB" ref="pointB"></property>
+		<property name="pointC" ref="pointC"></property>
 	</bean>
 	<bean id="pointA" class="com.javabrains.dao.Point"> 
 		<property name="x" value="0"></property>
